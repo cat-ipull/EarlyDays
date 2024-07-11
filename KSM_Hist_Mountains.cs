@@ -72,7 +72,7 @@ public class KSM_Hist_Mountains : MonoBehaviour
                     ksm_y[i + 1] = pricesArray[i][1].AsFloat;
 
                     // Calculate the position of the line point
-                    Vector3 position = floorObject.transform.position + new Vector3((ksm_x[i + 1] * scalingFactor) + 38f + ((i + 1) * spacing), ksm_y[i + 1] - 12, 0f);
+                    Vector3 position = floorObject.transform.position + new Vector3((ksm_x[i + 1] * scalingFactor) + 38f + ((i + 1) * spacing), ksm_y[i + 1] - 3, 0f);
 
                     // Set the position of the line point
                     lineRenderer.positionCount = i + 2;
